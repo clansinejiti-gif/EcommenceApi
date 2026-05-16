@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json())
 
-app.use('/api/v1/items', itemsRouter)
+app.use('/api/items', itemsRouter)
 
 app.use('/api/products', productsRouter)
 
