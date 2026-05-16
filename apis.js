@@ -18,7 +18,7 @@ app.use('/api/products', productsRouter)
 app.use('/api/orders', ordersRoute)
 
 app.get('/', (req, res)=> {
-    res.send("Welcome");
+    res.send("Welcome to Clansine's first Backend Deployed on render");
 });
 
 
